@@ -1,0 +1,9 @@
+# Tuy chon cho may du RAM. Dung Python 3.11 tren Linux/Windows x86_64.
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+--only-binary=underthesea-core
+torch==2.6.0+cpu
+transformers==4.51.3
+underthesea==6.8.4
+numpy==1.26.4
+scikit-learn==1.5.2
